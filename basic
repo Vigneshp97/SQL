@@ -1,1 +1,8 @@
-DDL - data definition language 
+String Functions:
+
+select concat(name,' ',marital_status) from friends_details
+select upper(name) from friends_details
+select Lower(name) from friends_details
+select trim(name) from friends_details
+select length(name),name from friends_details
+select substring(name,3,2) from friends_details as fd;
